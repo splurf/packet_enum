@@ -2,7 +2,11 @@
 name = "packet_enum"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+authors = ["Evan Schwartzentruber <evandotschwartzentruber@gmail.com>"]
+description = "Full implementation for packet_enum"
+exclude = [".github/", ".gitignore", "LICENSE", "README.md", "tests/"]
 
 [dependencies]
-packet_derive = "0.1.0"
-packet_util = "0.1.0"
+packet_derive = "0.1.1"
+packet_util = "0.1.1"
