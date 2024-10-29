@@ -1,6 +1,6 @@
 [package]
 name = "packet_enum"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 license = "MIT"
 authors = ["Evan Schwartzentruber <evandotschwartzentruber@gmail.com>"]
@@ -8,8 +8,8 @@ description = "Full implementation for packet_enum"
 exclude = [".github/", ".gitignore", "LICENSE", "README.md", "tests/"]
 
 [dependencies]
-packet_derive = "0.1.3"
-packet_util = "0.1.3"
+packet_derive = "0.1.4"
+packet_util = "0.1.4"
 
 [profile.release]
 lto = true
